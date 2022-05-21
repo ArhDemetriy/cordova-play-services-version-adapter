@@ -125,7 +125,7 @@
             "com.google.android.gms:play-services-appinvite",
             "com.google.android.gms:play-services-analytics",
             "com.google.android.gms:play-services-ads"
-        
+
         ]
     },
     {
@@ -1707,6 +1707,7 @@
             "com.google.android.gms:play-services-appinvite",
             "com.google.android.gms:play-services-analytics-impl",
             "com.google.android.gms:play-services-analytics",
+            "com.google.android.gms:play-services-ads-identifier",
             "com.google.android.gms:play-services-ads-lite",
             "com.google.android.gms:play-services-ads",
             "com.google.firebase:firebase-config",
@@ -1757,6 +1758,7 @@
             "com.google.android.gms:play-services-auth-base",
             "com.google.android.gms:play-services-auth",
             "com.google.android.gms:play-services-auth-api-phone",
+            "com.google.android.gms:play-services-ads-identifier",
             "com.google.android.gms:play-services-ads-lite",
             "com.google.android.gms:play-services-ads",
             "com.google.firebase:firebase-database-connection",
@@ -1827,6 +1829,7 @@
             "com.google.android.gms:play-services-appinvite",
             "com.google.android.gms:play-services-analytics-impl",
             "com.google.android.gms:play-services-analytics",
+            "com.google.android.gms:play-services-ads-identifier",
             "com.google.android.gms:play-services-ads-lite",
             "com.google.android.gms:play-services-ads",
             "com.google.firebase:firebase-config",
@@ -1966,6 +1969,7 @@
         "version": "17.0.0",
         "dependencies": [
             "com.google.android.gms:play-services-gass",
+            "com.google.android.gms:play-services-ads-identifier",
             "com.google.android.gms:play-services-ads-lite",
             "com.google.android.gms:play-services-ads",
             "com.google.firebase:firebase-iid",
@@ -1975,6 +1979,7 @@
     {
         "version": "17.0.1",
         "dependencies": [
+            "com.google.android.gms:play-services-ads-identifier",
             "com.google.firebase:firebase-iid"
         ]
     },
@@ -2001,7 +2006,21 @@
     {
         "version": "17.1.0",
         "dependencies": [
+            "com.google.android.gms:play-services-ads-identifier",
+            "com.google.android.gms:play-services-ads",
             "com.google.firebase:firebase-messaging"
+        ]
+    },
+    {
+        "version": "17.2.0",
+        "dependencies": [
+            "com.google.android.gms:play-services-ads"
+        ]
+    },
+    {
+        "version": "17.2.1",
+        "dependencies": [
+            "com.google.android.gms:play-services-ads"
         ]
     },
     {
@@ -2033,6 +2052,24 @@
         "dependencies": [
             "com.google.firebase:firebase-messaging"
         ]
+    },
+    {
+        "version": "18.0.0",
+        "dependencies": [
+            "com.google.android.gms:play-services-ads-identifier",
+            "com.google.android.gms:play-services-ads"
+        ]
+    },
+    {
+        "version": "18.0.1",
+        "dependencies": [
+            "com.google.android.gms:play-services-ads-identifier"
+        ]
+    },
+    {
+        "version": "20.6.0",
+        "dependencies": [
+            "com.google.android.gms:play-services-ads"
+        ]
     }
-
 ]
